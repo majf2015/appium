@@ -1,0 +1,19 @@
+1、下载Appium，安装
+    Appium官方网站：http://appium.io/
+
+2、node.js
+    node.js官方网站：https://nodejs.org/
+    Node.js是一个Javascript运行环境(runtime)。实际上它是对Google V8引擎进行了封装。V8引 擎执行Javascript的速度非常快，性能非常好。Node.js对一些特殊用例进行了优化，提供了替代的API，使得V8在非浏览器环境下运行得更好。
+
+3、python已安装
+
+4、selenium已安装
+
+
+
+2、需.net4.5及以上支持
+   因为Appium是由.NET 开发的，所以，它会依赖 .NET framework相关组件
+
+
+http://www.cnblogs.com/enjoytesting/p/3513637.html
+http://www.tuicool.com/articles/MNfaIr
