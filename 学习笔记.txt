@@ -1,5 +1,6 @@
 1、下载Appium，安装
     Appium官方网站：http://appium.io/
+    百度网盘的下载链接：http://pan.baidu.com/s/1jGvAISu
 
 2、node.js
     node.js官方网站：https://nodejs.org/
@@ -10,10 +11,22 @@
 4、selenium已安装
 
 
-
-2、需.net4.5及以上支持
+5、需.net4.5及以上支持
    因为Appium是由.NET 开发的，所以，它会依赖 .NET framework相关组件
+   百度“.net framework 4.5”
+
+6、jdk已安装
+   Android是由Java语言开发的，所以想开发Android应用首先需要Java环境
+   java 环境分JDK 和JRE ，JDK就是Java Development Kit.简单的说JDK是面向开发人员使用的SDK，它提供了Java的开发环境和运行环境。JRE是Java Runtime Enviroment是指Java的运行环境，是面向Java程序的使用者，而不是开发者。
+
+7、Android SDK已安装（安装android adt & SDK）
+   通过官方地址下载：http://developer.android.com/sdk/index.html
 
 
+
+参考：
+http://www.cnblogs.com/fnng/p/4540731.html
+http://www.cnblogs.com/fnng/p/4552438.html
 http://www.cnblogs.com/enjoytesting/p/3513637.html
 http://www.tuicool.com/articles/MNfaIr
+http://blog.csdn.net/gzh0222/article/details/39272785
