@@ -25,10 +25,26 @@
 
 8、增加path环境变量
 
+开始
+1、连接手机到电脑
+adb devices 查看UDID : HJA4818E
+
+2、启动appium
+appium -a 127.0.0.1 -p 4723  –U  HJA4818E --no-reset
+
+3、运行脚本
+python E:\appium\appium\appium_test.py
+
+问题：Requested a new session but one was in progress
+http://blog.csdn.net/niubitianping/article/details/52624417
+
+问题：Unhandled error: Error: ENOENT, no such file or directory 'D:\windows-x86\build-tools'
+修改ANDROID_HOME 环境变量路径
+
+问题：Could not find zipalign in tools, platform-tools, or supported build-tools under \"E:\\windows-x86-SDK\\sdk\"; do you have the Android SDK installed at this location?
 
 
-参考：
-http://www.cnblogs.com/fnng/category/695788.html
-http://www.cnblogs.com/enjoytesting/p/3513637.html
-http://www.tuicool.com/articles/MNfaIr
-http://blog.csdn.net/gzh0222/article/details/39272785
+
+
+
+
