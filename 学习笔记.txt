@@ -5,6 +5,8 @@
 2、node.js
     node.js官方网站：https://nodejs.org/
     Node.js是一个Javascript运行环境(runtime)。实际上它是对Google V8引擎进行了封装。V8引 擎执行Javascript的速度非常快，性能非常好。Node.js对一些特殊用例进行了优化，提供了替代的API，使得V8在非浏览器环境下运行得更好。
+npm 查看是否安装成功
+npm install -g appium:安装 appium
 
 3、python已安装
 
@@ -23,7 +25,23 @@
    通过官方地址下载：http://developer.android.com/sdk/index.html
 
 
-8、增加path环境变量
+8、	环境变量(需要重新启动CMD，通过appium-doctor命令查检配置问题，用android -h查检安卓环境)
+	C:\Program Files (x86)\Appium\node_modules\.bin
+	C:\Program Files (x86)\Appium
+
+
+	ANDROID_HOME  E:\windows-x86-SDK\sdk
+	path          %ANDROID_HOME%\platform-tools
+	path          %ANDROID_HOME%\tools
+	JAVA_HOME     C:\Program Files\Java\jdk1.8.0_121
+	path          %JAVA_HOME%\bin
+	CLASSPATH     %JAVA_HOME%\lib\tools.jar;%JAVA_HOME%\lib\dt.jar
+
+	输入：java -version
+	假如看到有版本提示那么则安装成功
+	输入：java -verbose
+
+
 
 开始
 1、连接手机到电脑
@@ -37,12 +55,27 @@ python E:\appium\appium\appium_test.py
 
 问题：Requested a new session but one was in progress
 http://blog.csdn.net/niubitianping/article/details/52624417
+解决: 
+1. 重新停止appium服务，开启Appium服务 
+2. 在Genarel Setting那里设置覆盖Session，重启Appium
 
 问题：Unhandled error: Error: ENOENT, no such file or directory 'D:\windows-x86\build-tools'
-修改ANDROID_HOME 环境变量路径
+环境变量没配置好：通过appium-doctor命令查检配置问题
 
-问题：Could not find zipalign in tools, platform-tools, or supported build-tools under \"E:\\windows-x86-SDK\\sdk\"; do you have the Android SDK installed at this location?
+问题：Could not find zipalign
+查找SDK文件夹，找到zipalign.exe，文件放已配置的环境变量路径下，或者另外增加环境变量
+没找到的话，只能另外下载，放进去
 
+问题：每次运行脚本都重新安装了APK：每次运行脚本都在手机上重新安装appium、Unluck
+setting:no restart
+desired_caps['noReset'] = True
+
+问题：无法启动activity
+permission to start activity denied
+修改程序：在主activity和intent入口处添加：android:exported="true"
+
+问题：An element could not be located on the page using the given search parameters.
+NoSuchElementException
 
 
 

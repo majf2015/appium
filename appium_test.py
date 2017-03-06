@@ -8,12 +8,15 @@ desired_caps = {}
 desired_caps['platformName'] = 'Android'
 desired_caps['platformVersion'] = '4.2'
 desired_caps['deviceName'] = 'lenovo S668t'
-desired_caps['app'] = PATH('E:\\appium\\9358mgr_v3.7.0.42_dev_xiaomodo_201702081651.apk')
+desired_caps['app'] = PATH('E:\\appium\\app-dev-debug-mgr.apk')
 desired_caps['appPackage'] = 'com.xmd.manager'
 desired_caps['appActivity'] = 'com.xmd.manager.window.LoginActivity'
+desired_caps['noReset'] = True
 
-driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
-time.sleep(5)
-driver.find_element_by_id('com.xmd.manager:id/login').click()
+driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
+time.sleep(1)
+driver.find_element_by_id('id/password').send_keys('999999')
+time.sleep(1)
+driver.find_element_by_id('id/login').click()
 time.sleep(5)
 driver.quit()
