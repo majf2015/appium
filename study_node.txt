@@ -45,7 +45,7 @@ npm install -g appium:安装 appium
 
 开始
 1、连接手机到电脑
-adb devices 查看UDID : HJA4818E
+adb devices 查看UDID : HJA4818E/e9dd013/emulator-5554
 
 2、启动appium
 appium -a 127.0.0.1 -p 4723  –U  HJA4818E --no-reset
@@ -74,8 +74,10 @@ desired_caps['noReset'] = True
 permission to start activity denied
 修改程序：在主activity和intent入口处添加：android:exported="true"
 
-问题：An element could not be located on the page using the given search parameters.
-NoSuchElementException
+问题：NoSuchElementException: Message: An element could not be located on the page using the given search parameters
+
+tools目录下uiautomatorviewer.bat查看元素
+使用xpath("//android.widget.Button[contains(@resource-id,'digit5')]")方法定位
 
 
 
