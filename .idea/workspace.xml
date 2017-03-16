@@ -21,13 +21,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="appium_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="appium_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appium_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2553571">
-              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
               <folding>
-                <element signature="e#0#42#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="public_module.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_module.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding>
+                <element signature="e#24#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,18 +48,18 @@
       <file leaf-file-name="config.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.928572">
-              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+            <state vertical-scroll-proportion="9.5">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appium_test_SQL.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="appium_test_SQL.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appium_test_SQL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+            <state vertical-scroll-proportion="1.0764873">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,15 +84,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/study_node.txt" />
+        <option value="$PROJECT_DIR$/appium_test_SQL.py" />
         <option value="$PROJECT_DIR$/config.conf" />
         <option value="$PROJECT_DIR$/appium_test.py" />
-        <option value="$PROJECT_DIR$/appium_test_SQL.py" />
+        <option value="$PROJECT_DIR$/public_module.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="162" />
-    <option name="width" value="1107" />
+    <option name="x" value="260" />
+    <option name="y" value="86" />
+    <option name="width" value="1145" />
     <option name="height" value="984" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -137,8 +151,9 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/appium/appium/config.conf" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittest AppTest.test_login">
+  <component name="RunManager" selected="Python tests.Unittest AppTest.test_tv_data">
     <configuration default="false" name="Unittest AppTest.test_tv_data" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,6 +196,67 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in AppTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="appium" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appium_test.py" />
+      <option name="CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest AppTest.test_ppp" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="appium" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appium_test.py" />
+      <option name="CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="test_ppp" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="public_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="appium" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public_module.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -305,14 +381,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest AppTest.test_tv_data" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest AppTest.test_login" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in AppTest" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest AppTest.test_ppp" />
+      <item index="4" class="java.lang.String" itemvalue="Python.public_module" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest AppTest.test_login" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest AppTest.test_tv_data" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest AppTest.test_tv_data" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in AppTest" />
+        <item index="2" class="java.lang.String" itemvalue="Python.public_module" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest AppTest.test_ppp" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest AppTest.test_login" />
       </list>
     </recent_temporary>
   </component>
@@ -330,47 +412,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_AppTest_test_login - 2017.03.15 at 18h 27m 17s.xml">
-      <configuration name="Unittest AppTest.test_login" configurationId="tests" />
+    <history-entry file="Unittest_AppTest_test_ppp - 2017.03.16 at 10h 14m 33s.xml">
+      <configuration name="Unittest AppTest.test_ppp" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_AppTest_test_login - 2017.03.15 at 18h 29m 28s.xml">
-      <configuration name="Unittest AppTest.test_login" configurationId="tests" />
+    <history-entry file="Unittest_AppTest_test_tv_data - 2017.03.16 at 10h 25m 54s.xml">
+      <configuration name="Unittest AppTest.test_tv_data" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_AppTest_test_login - 2017.03.15 at 18h 31m 25s.xml">
-      <configuration name="Unittest AppTest.test_login" configurationId="tests" />
+    <history-entry file="Unittest_AppTest_test_tv_data - 2017.03.16 at 10h 34m 25s.xml">
+      <configuration name="Unittest AppTest.test_tv_data" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_AppTest_test_login - 2017.03.15 at 19h 25m 58s.xml">
-      <configuration name="Unittest AppTest.test_login" configurationId="tests" />
+    <history-entry file="Unittest_AppTest_test_tv_data - 2017.03.16 at 10h 35m 53s.xml">
+      <configuration name="Unittest AppTest.test_tv_data" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_AppTest_test_login - 2017.03.15 at 19h 28m 40s.xml">
-      <configuration name="Unittest AppTest.test_login" configurationId="tests" />
+    <history-entry file="Unittest_AppTest_test_tv_data - 2017.03.16 at 10h 47m 12s.xml">
+      <configuration name="Unittest AppTest.test_tv_data" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_AppTest_test_login - 2017.03.15 at 19h 34m 22s.xml">
-      <configuration name="Unittest AppTest.test_login" configurationId="tests" />
+    <history-entry file="Unittest_AppTest_test_tv_data - 2017.03.16 at 10h 55m 23s.xml">
+      <configuration name="Unittest AppTest.test_tv_data" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_AppTest_test_login - 2017.03.15 at 19h 44m 15s.xml">
-      <configuration name="Unittest AppTest.test_login" configurationId="tests" />
+    <history-entry file="Unittest_AppTest_test_tv_data - 2017.03.16 at 10h 58m 48s.xml">
+      <configuration name="Unittest AppTest.test_tv_data" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_AppTest_test_login - 2017.03.15 at 19h 51m 12s.xml">
-      <configuration name="Unittest AppTest.test_login" configurationId="tests" />
+    <history-entry file="Unittest_AppTest_test_tv_data - 2017.03.16 at 11h 03m 16s.xml">
+      <configuration name="Unittest AppTest.test_tv_data" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_AppTest_test_login - 2017.03.15 at 19h 54m 54s.xml">
-      <configuration name="Unittest AppTest.test_login" configurationId="tests" />
+    <history-entry file="Unittests_in_AppTest - 2017.03.16 at 10h 13m 37s.xml">
+      <configuration name="Unittests in AppTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_AppTest_test_login - 2017.03.15 at 20h 04m 31s.xml">
-      <configuration name="Unittest AppTest.test_login" configurationId="tests" />
+    <history-entry file="Unittests_in_AppTest - 2017.03.16 at 10h 38m 46s.xml">
+      <configuration name="Unittests in AppTest" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="162" y="0" width="1107" height="984" extended-state="1" />
+    <frame x="260" y="86" width="1145" height="984" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19431715" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18777679" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.56621003" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -416,29 +498,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.928572">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appium_test_SQL.py">
+    <entry file="file://$PROJECT_DIR$/public_module.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding />
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appium_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2553571">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.5">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/测试/auto_testing/android_appium/appium_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1303116">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appium_test_SQL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0764873">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
